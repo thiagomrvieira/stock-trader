@@ -18,10 +18,10 @@
                 <v-btn flat slot="activator">Salvar & carregar</v-btn>
                 <v-list>
                     <v-list-tile>
-                        <v-list-title>Salvar Dados</v-list-title>
+                        <v-list-tile-title>Salvar Dados</v-list-tile-title>
                     </v-list-tile>
                     <v-list-tile>
-                        <v-list-title>Carregar Dados</v-list-title>
+                        <v-list-tile-title>Carregar Dados</v-list-tile-title>
                     </v-list-tile>
                 </v-list>
             </v-menu>
