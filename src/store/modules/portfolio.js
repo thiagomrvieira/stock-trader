@@ -34,11 +34,11 @@ export default {
     getters: {
         stockPortfolio(state, getters){
             return state.stocks.map(stock => {
-                const record = getters.stock.find(element => element.id == stock.id)
+                const record = getters.stocks.find(element => element.id == stock.id) 
                 return {
                     id: stock.id,
                     quantity: stock.quantity,
-                    nome: record.name,
+                    name: record.name,
                     price: record.price
                 }
             })
